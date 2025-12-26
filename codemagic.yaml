@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: kovalenkooproj #назва ключа з код меджека, щось схоже на нейм апки
+      app_store_connect: hnatiukproj #назва ключа з код меджека, щось схоже на нейм апки
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.kovalenkooproj.app #тут бандл
+        bundle_identifier: com.hnatiukproj.app #тут бандл
       vars:
-        BUNDLE_ID: "com.kovalenkooproj.app" #тут бандл
-        XCODE_WORKSPACE: "RelicsRunsRush.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "RelicsRunsRush" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6756917401 #тут ід додатка в стор
+        BUNDLE_ID: "com.hnatiukproj.app" #тут бандл
+        XCODE_WORKSPACE: "TeamTurnly.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "TeamTurnly" # <-- Put the name of your Xcode scheme here
+        APP_STORE_APPLE_ID: 6756976293 #тут ід додатка в стор
       xcode: latest
       cocoapods: default
     scripts:
