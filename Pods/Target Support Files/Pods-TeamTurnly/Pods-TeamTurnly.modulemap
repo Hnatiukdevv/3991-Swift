@@ -1,4 +1,4 @@
-framework module Pods_TeamTurnly {
+module Pods_TeamTurnly {
   umbrella header "Pods-TeamTurnly-umbrella.h"
 
   export *

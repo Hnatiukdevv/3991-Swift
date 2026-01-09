@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,13 +14,23 @@
 		72949D5D2EFE7D0500A1AB99 /* TTHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D562EFE7D0500A1AB99 /* TTHomeWebView.swift */; };
 		72949D5E2EFE7D0500A1AB99 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D542EFE7D0500A1AB99 /* ShapeStyle+Extensions.swift */; };
 		72949D5F2EFE7D0500A1AB99 /* TTLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D582EFE7D0500A1AB99 /* TTLaunchView.swift */; };
-		7E5232DADA6B330EB418FA09 /* Pods_TeamTurnly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344957620A72153F2C81A447 /* Pods_TeamTurnly.framework */; };
+		729D47992F10025900AB0E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47972F10025900AB0E0F /* AppDelegate.swift */; };
+		729D479A2F10025900AB0E0F /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47982F10025900AB0E0F /* AppEntryPoint.swift */; };
+		729D479C2F10029E00AB0E0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 729D479B2F10029E00AB0E0F /* GoogleService-Info.plist */; };
+		729D479E2F1002C700AB0E0F /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D479D2F1002C700AB0E0F /* TextScreen.swift */; };
+		729D47A72F10031F00AB0E0F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 729D47A12F10031F00AB0E0F /* index.html */; };
+		729D47A82F10031F00AB0E0F /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47A52F10031F00AB0E0F /* WebSheetViewController.swift */; };
+		729D47AA2F10031F00AB0E0F /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47A22F10031F00AB0E0F /* UserAgentBuilder.swift */; };
+		729D47AB2F10031F00AB0E0F /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47A32F10031F00AB0E0F /* WebViewContainer.swift */; };
+		729D47AC2F10031F00AB0E0F /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47A42F10031F00AB0E0F /* WebViewCoordinator.swift */; };
+		729D47AF2F10034200AB0E0F /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D47AD2F10034200AB0E0F /* PrivacyView.swift */; };
+		ACF2851DD93E5271F94566BD /* libPods-TeamTurnly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AA05674B5FA14B3F2949EE /* libPods-TeamTurnly.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		344957620A72153F2C81A447 /* Pods_TeamTurnly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamTurnly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E288B5C7FE610D9E9C077FC /* Pods-TeamTurnly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTurnly.release.xcconfig"; path = "Target Support Files/Pods-TeamTurnly/Pods-TeamTurnly.release.xcconfig"; sourceTree = "<group>"; };
 		4FE0241AB2CC1F4A59EF43C7 /* Pods-TeamTurnly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTurnly.debug.xcconfig"; path = "Target Support Files/Pods-TeamTurnly/Pods-TeamTurnly.debug.xcconfig"; sourceTree = "<group>"; };
+		55AA05674B5FA14B3F2949EE /* libPods-TeamTurnly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamTurnly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72949D3D2EFE7CC200A1AB99 /* TeamTurnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamTurnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72949D4C2EFE7CF500A1AB99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72949D4D2EFE7CF500A1AB99 /* TeamTurnlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTurnlyApp.swift; sourceTree = "<group>"; };
@@ -30,6 +40,17 @@
 		72949D562EFE7D0500A1AB99 /* TTHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHomeWebView.swift; sourceTree = "<group>"; };
 		72949D582EFE7D0500A1AB99 /* TTLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTLaunchView.swift; sourceTree = "<group>"; };
 		72949D602EFE7EF600A1AB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		729D47972F10025900AB0E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		729D47982F10025900AB0E0F /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		729D479B2F10029E00AB0E0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		729D479D2F1002C700AB0E0F /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		729D47A12F10031F00AB0E0F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		729D47A22F10031F00AB0E0F /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		729D47A32F10031F00AB0E0F /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		729D47A42F10031F00AB0E0F /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		729D47A52F10031F00AB0E0F /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		729D47AD2F10034200AB0E0F /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		729D47B02F10044800AB0E0F /* TeamTurnly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamTurnly.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5232DADA6B330EB418FA09 /* Pods_TeamTurnly.framework in Frameworks */,
+				ACF2851DD93E5271F94566BD /* libPods-TeamTurnly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +71,6 @@
 				4FE0241AB2CC1F4A59EF43C7 /* Pods-TeamTurnly.debug.xcconfig */,
 				3E288B5C7FE610D9E9C077FC /* Pods-TeamTurnly.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,7 +95,9 @@
 		72949D4E2EFE7CF500A1AB99 /* TeamTurnly */ = {
 			isa = PBXGroup;
 			children = (
+				729D47B02F10044800AB0E0F /* TeamTurnly.entitlements */,
 				72949D602EFE7EF600A1AB99 /* Info.plist */,
+				729D479B2F10029E00AB0E0F /* GoogleService-Info.plist */,
 				72949D552EFE7D0500A1AB99 /* Extensions */,
 				72949D5A2EFE7D0500A1AB99 /* Screens */,
 				72949D512EFE7CF700A1AB99 /* App */,
@@ -88,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				72949D4D2EFE7CF500A1AB99 /* TeamTurnlyApp.swift */,
+				729D47972F10025900AB0E0F /* AppDelegate.swift */,
+				729D47982F10025900AB0E0F /* AppEntryPoint.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -95,6 +119,7 @@
 		72949D552EFE7D0500A1AB99 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				729D479D2F1002C700AB0E0F /* TextScreen.swift */,
 				72949D522EFE7D0500A1AB99 /* View+Extensions.swift */,
 				72949D532EFE7D0500A1AB99 /* Color+Extensions.swift */,
 				72949D542EFE7D0500A1AB99 /* ShapeStyle+Extensions.swift */,
@@ -121,16 +146,38 @@
 		72949D5A2EFE7D0500A1AB99 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				729D47AE2F10034200AB0E0F /* PrivacyScreen */,
+				729D47A62F10031F00AB0E0F /* Web */,
 				72949D572EFE7D0500A1AB99 /* HomeWebScreen */,
 				72949D592EFE7D0500A1AB99 /* LaunchScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		729D47A62F10031F00AB0E0F /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				729D47A12F10031F00AB0E0F /* index.html */,
+				729D47A22F10031F00AB0E0F /* UserAgentBuilder.swift */,
+				729D47A32F10031F00AB0E0F /* WebViewContainer.swift */,
+				729D47A42F10031F00AB0E0F /* WebViewCoordinator.swift */,
+				729D47A52F10031F00AB0E0F /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		729D47AE2F10034200AB0E0F /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				729D47AD2F10034200AB0E0F /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
 		E1B08BD628F2227F5710F9EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				344957620A72153F2C81A447 /* Pods_TeamTurnly.framework */,
+				55AA05674B5FA14B3F2949EE /* libPods-TeamTurnly.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +193,7 @@
 				72949D392EFE7CC200A1AB99 /* Sources */,
 				72949D3A2EFE7CC200A1AB99 /* Frameworks */,
 				72949D3B2EFE7CC200A1AB99 /* Resources */,
+				4676F7C1616E955CECE4E0D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +220,7 @@
 				};
 			};
 			buildConfigurationList = 72949D382EFE7CC200A1AB99 /* Build configuration list for PBXProject "TeamTurnly" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,7 +229,6 @@
 			);
 			mainGroup = 72949D342EFE7CC200A1AB99;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 55;
 			productRefGroup = 72949D3E2EFE7CC200A1AB99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729D47A72F10031F00AB0E0F /* index.html in Resources */,
+				729D479C2F10029E00AB0E0F /* GoogleService-Info.plist in Resources */,
 				72949D4F2EFE7CF500A1AB99 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +252,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4676F7C1616E955CECE4E0D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamTurnly/Pods-TeamTurnly-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamTurnly/Pods-TeamTurnly-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeamTurnly/Pods-TeamTurnly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88491E12EE77F258604040A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,10 +303,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				72949D502EFE7CF500A1AB99 /* TeamTurnlyApp.swift in Sources */,
+				729D479E2F1002C700AB0E0F /* TextScreen.swift in Sources */,
 				72949D5B2EFE7D0500A1AB99 /* View+Extensions.swift in Sources */,
 				72949D5C2EFE7D0500A1AB99 /* Color+Extensions.swift in Sources */,
 				72949D5D2EFE7D0500A1AB99 /* TTHomeWebView.swift in Sources */,
+				729D47AF2F10034200AB0E0F /* PrivacyView.swift in Sources */,
+				729D47A82F10031F00AB0E0F /* WebSheetViewController.swift in Sources */,
+				729D47AA2F10031F00AB0E0F /* UserAgentBuilder.swift in Sources */,
+				729D47AB2F10031F00AB0E0F /* WebViewContainer.swift in Sources */,
+				729D47AC2F10031F00AB0E0F /* WebViewCoordinator.swift in Sources */,
 				72949D5E2EFE7D0500A1AB99 /* ShapeStyle+Extensions.swift in Sources */,
+				729D47992F10025900AB0E0F /* AppDelegate.swift in Sources */,
+				729D479A2F10025900AB0E0F /* AppEntryPoint.swift in Sources */,
 				72949D5F2EFE7D0500A1AB99 /* TTLaunchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,14 +444,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeamTurnly/TeamTurnly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeamTurnly/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Team Turnly";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -387,7 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hnatiukproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -407,14 +491,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeamTurnly/TeamTurnly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeamTurnly/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Team Turnly";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,7 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hnatiukproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80B9909F9DDBBDE89DDABC6D214D1EF0"
-               BuildableName = "Pods_TeamTurnly.framework"
+               BuildableName = "libPods-TeamTurnly.a"
                BlueprintName = "Pods-TeamTurnly"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
